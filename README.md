@@ -63,27 +63,27 @@ Commercial MMPs aggregate ad spend, attribute app installs, provide deferred dee
 
 Open-source mobile attribution frameworks, customer data platforms (CDPs), event collection pipelines, and deep-linking SDKs give app developers complete ownership of their data.
 
-*Sorted by **GitHub Stars** in descending order:*
+*Sorted by **GitHub_Stars** in descending order:*
 
-1. 🌟 **[PostHog](https://github.com/PostHog/posthog)** [![GitHub stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers)  
+1. 🌟 **[PostHog](https://github.com/PostHog/posthog)** [![GitHub_Stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers)  
    *Self-hosted product analytics, event tracking, session recording, and feature flags. Provides event collection SDKs for iOS/Android to build custom attribution models.*
 
-2. 🌟 **[Matomo](https://github.com/matomo-org/matomo)** [![GitHub stars](https://img.shields.io/github/stars/matomo-org/matomo?style=social&color=white)](https://github.com/matomo-org/matomo/stargazers)  
+2. 🌟 **[Matomo](https://github.com/matomo-org/matomo)** [![GitHub_Stars](https://img.shields.io/github/stars/matomo-org/matomo?style=social&color=white)](https://github.com/matomo-org/matomo/stargazers)  
    *Privacy-focused web & mobile analytics platform with open-source mobile SDKs for tracking app installs, marketing campaigns, and user events.*
 
-3. 🌟 **[Snowplow Engine](https://github.com/snowplow/snowplow)** [![GitHub stars](https://img.shields.io/github/stars/snowplow/snowplow?style=social&color=white)](https://github.com/snowplow/snowplow/stargazers)  
+3. 🌟 **[Snowplow Engine](https://github.com/snowplow/snowplow)** [![GitHub_Stars](https://img.shields.io/github/stars/snowplow/snowplow?style=social&color=white)](https://github.com/snowplow/snowplow/stargazers)  
    *Enterprise-grade open-source event data pipeline for capturing granular mobile app events into Snowflake, BigQuery, or Redshift for SQL-based attribution modeling.*
 
-4. 🌟 **[Countly Server](https://github.com/Countly/countly-server)** [![GitHub stars](https://img.shields.io/github/stars/Countly/countly-server?style=social&color=white)](https://github.com/Countly/countly-server/stargazers)  
+4. 🌟 **[Countly Server](https://github.com/Countly/countly-server)** [![GitHub_Stars](https://img.shields.io/github/stars/Countly/countly-server?style=social&color=white)](https://github.com/Countly/countly-server/stargazers)  
    *Open-source product analytics and real-time mobile app tracking platform for managing user profiles, custom events, and attribution campaigns.*
 
-5. 🌟 **[RudderStack Server](https://github.com/rudderlabs/rudder-server)** [![GitHub stars](https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white)](https://github.com/rudderlabs/rudder-server/stargazers)  
+5. 🌟 **[RudderStack Server](https://github.com/rudderlabs/rudder-server)** [![GitHub_Stars](https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white)](https://github.com/rudderlabs/rudder-server/stargazers)  
    *Open-source Customer Data Platform (CDP) for collecting app signals, routing mobile events, and feeding attribution pipelines.*
 
-6. 🌟 **[OpenAttribution](https://github.com/OpenAttribution/open-attribution)** [![GitHub stars](https://img.shields.io/github/stars/OpenAttribution/open-attribution?style=social&color=white)](https://github.com/OpenAttribution/open-attribution/stargazers)  
+6. 🌟 **[OpenAttribution](https://github.com/OpenAttribution/open-attribution)** [![GitHub_Stars](https://img.shields.io/github/stars/OpenAttribution/open-attribution?style=social&color=white)](https://github.com/OpenAttribution/open-attribution/stargazers)  
    *Dedicated open-source Mobile Measurement Partner (MMP) architecture aimed at giving developers data ownership over mobile install attribution, SQL modeling, and companion iOS/Android SDKs.*
 
-7. 🌟 **[DeepOne Android SDK](https://github.com/deeponelabs/deepone-android-sdk)** [![GitHub stars](https://img.shields.io/github/stars/deeponelabs/deepone-android-sdk?style=social&color=white)](https://github.com/deeponelabs/deepone-android-sdk/stargazers)  
+7. 🌟 **[DeepOne Android SDK](https://github.com/deeponelabs/deepone-android-sdk)** [![GitHub_Stars](https://img.shields.io/github/stars/deeponelabs/deepone-android-sdk?style=social&color=white)](https://github.com/deeponelabs/deepone-android-sdk/stargazers)  
    *Open-source Android library for deferred deep linking and install tracking as a self-hosted alternative to Branch.*
 
 ---
@@ -94,7 +94,7 @@ Contributions are welcome! Help us keep this curated mobile attribution director
 
 1. 🍴 **Fork** this repository.
 2. 📝 **Add/edit** entries in `README.md` following the existing tabular or open-source list format.
-3. ℹ️ Include relevant details: **Name, Link, Pricing, Free Tier / Trial limits, and GitHub Star Badges**.
+3. ℹ️ Include relevant details: **Name, Link, Pricing, Free Tier / Trial limits, and GitHub Stars_Badges**.
 4. 🚀 **Submit a Pull Request** with a concise title and description.
 
 ---
