@@ -1,205 +1,129 @@
-# Awesome-Mobile-Attribution-Platform
-
-## Top Mobile Attribution Platform Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Mobile Measurement Partners (MMP), Install & Event Attribution, Deep Linking, Fraud Prevention, SKAN & Privacy-Centric App Marketing Analytics*  
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Mobile Attribution**. These systems (often called Mobile Measurement Partners or MMPs) attribute app installs and in-app events to marketing sources, support deep linking, help measure campaign ROI, and navigate privacy changes such as ATT and SKAdNetwork.
-
-
-
-**Examples** include AppsFlyer, Adjust, Branch, Singular, Kochava, Airbridge, Tenjin, Adobe Attribution, Rockerbox, and Northbeam (the category leaders and adjacent attribution tools).
-
-
-
-**Open-source emphasis**: Full-featured commercial MMPs with broad ad-network integrations, fraud suites, and SKAN support dominate the market. Open-source activity is limited but includes the **OpenAttribution** project aiming to give app developers ownership of their attribution data, plus SDKs, analytics building blocks, and research tools. This section lists every significant relevant project found.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[AppsFlyer](https://www.appsflyer.com/)**  
-
-  Leading mobile attribution and marketing analytics platform with extensive partner integrations, deep linking, fraud protection, and support for modern privacy frameworks including SKAdNetwork.
-
-
-
-- **[Adjust](https://www.adjust.com/)**  
-
-  Privacy-focused mobile measurement platform strong in attribution, automation, and fraud prevention, widely used by gaming and app marketers.
-
-
-
-- **[Branch](https://www.branch.io/)**  
-
-  Platform specializing in deep linking, web-to-app journeys, and attribution, often chosen when linking and deferred deep links are central to growth.
-
-
-
-- **[Singular](https://www.singular.net/)**  
-
-  Marketing analytics and mobile attribution platform known for cost aggregation, ROI visibility, and unified reporting across channels.
-
-
-
-- **[Kochava, Airbridge, Tenjin](https://www.kochava.com/)**  
-
-  Additional MMPs offering attribution, audience tools, and measurement solutions with varying strengths in privacy, cost, and regional coverage.
-
-
-
-- **[Adobe Attribution, Rockerbox, Northbeam](https://business.adobe.com/)**  
-
-  Broader or multi-touch attribution platforms that extend beyond pure mobile MMP use cases into web and cross-channel measurement.
-
-
-
-- **[Other commercial mobile attribution & measurement platforms](https://www.appsflyer.com/)**  
-
-  Solutions supporting install attribution, in-app event tracking, and campaign optimization under current privacy constraints.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[OpenAttribution](https://github.com/OpenAttribution/open-attribution)**  
-
-  Open-source mobile measurement platform (MMP) project focused on giving developers ownership of their advertising and attribution data. Includes tracking components, attribution logic (including customizable SQL), SDKs, and analytics dashboard concepts (early-stage / alpha).
-
-
-
-- **[OpenAttribution SDKs](https://github.com/OpenAttribution)**  
-
-  Companion open iOS and Android SDKs intended for in-app event and attribution signal collection under the OpenAttribution architecture.
-
-
-
-- **[Mobile analytics & event open SDKs](https://github.com/search?q=mobile+analytics+SDK+OR+app+event+tracking+open+source)**  
-
-  Open libraries for collecting app events that can feed custom attribution or product analytics pipelines.
-
-
-
-- **[Deep linking open libraries](https://github.com/search?q=deep+link+OR+deferred+deep+link+open+source)**  
-
-  Community tools and patterns for implementing deep links and deferred deep linking outside full commercial platforms.
-
-
-
-- **[Privacy & SKAN-related open tools](https://github.com/search?q=SKAdNetwork+OR+ATT+OR+privacy+sandbox+mobile)**  
-
-  Experimental and research projects around Apple’s SKAdNetwork, privacy sandbox concepts, and privacy-preserving measurement.
-
-
-
-- **[Fraud detection research & heuristics](https://github.com/search?q=ad+fraud+OR+click+fraud+detection)**  
-
-  Open approaches and datasets related to click/install fraud that some teams study or adapt.
-
-
-
-- **[Self-hosted analytics stacks](https://github.com/search?q=PostHog+OR+Matomo+OR+self-hosted+analytics)**  
-
-  Open product analytics platforms that can be combined with custom attribution logic for partial measurement ownership.
-
-
-
-- **[Ad cost & marketing data connectors](https://github.com/search?q=ad+cost+API+OR+marketing+ETL+open+source)**  
-
-  Open connectors and pipelines for pulling spend data that complement attribution results in a warehouse.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **OpenAttribution**: The primary open-source effort explicitly aiming to be a self-hosted MMP alternative with data ownership.
-
-- **Custom pipelines**: Event SDKs + warehouse + SQL attribution models for teams willing to build and maintain their own logic.
-
-- **Deep linking libraries**: Open components for link routing when full MMP deep-linking suites are not required.
-
-- **Privacy-first experiments**: Research code around aggregated and delayed measurement models.
-
-- Full commercial MMP feature sets (partner integrations, fraud suites, SKAN dashboards, support) remain far more mature.
-
-
-
-**Frameworks for building custom systems**:  
-
-**OpenAttribution** is the most visible open-source project positioned as an MMP alternative focused on data ownership.  
-
-Beyond that, teams can assemble event collection SDKs, deep-linking libraries, and warehouse-based attribution logic.  
-
-Commercial platforms (AppsFlyer, Adjust, Branch, Singular, Kochava, etc.) provide the partner ecosystem, fraud prevention, SKAN support, and operational tooling that most paid user-acquisition teams need.  
-
-Privacy changes have made pure deterministic attribution harder; both commercial and open approaches must work within platform constraints (ATT, SKAN, Privacy Sandbox). Many organizations use a commercial MMP for core measurement and retain flexibility via data export into their own warehouse.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Mobile attribution operates under evolving platform privacy rules (ATT, SKAdNetwork, etc.). Measurement accuracy and available signals change over time; no system can fully restore pre-ATT deterministic attribution on iOS.
-
-- Open-source attribution tools offer data ownership and transparency but require significant engineering for integrations, fraud defense, compliance, and ongoing maintenance. Commercial MMPs shift that burden to the vendor. Evaluate data governance, security, and regulatory requirements carefully.
-
-
+# Awesome Mobile Attribution Platform 📱🚀
+
+![Awesome Mobile Attribution Platform Banner](assets/banner.svg)
+
+<p center>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Attribution-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Mobile-Attribution-Platform" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Attribution-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Mobile-Attribution-Platform?style=flat" alt="Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Attribution-Platform/commits/main"><img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Mobile-Attribution-Platform" alt="Last Commit" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+## 📌 Top Mobile Attribution Platform Ecosystem
 
+> **Curated List of Commercial SaaS Products & Open-Source GitHub Projects**  
+> *Focused on Mobile Measurement Partners (MMP), Install & In-App Event Attribution, Deferred Deep Linking, Ad Fraud Prevention, SKAdNetwork (SKAN 4.0), Apple ATT & Privacy-Centric App Analytics*
 
-**Made for mobile growth teams, UA managers, app developers, and measurement specialists.**  
+---
 
-Let's expand options for transparent, owned attribution data while recognizing the partner coverage, fraud tooling, and operational maturity that leading commercial mobile attribution platforms deliver.
+## 📚 Table of Contents
+
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Commercial MMP Platforms](#-saas--commercial-mmp-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
+- [💖 Support & Community](#-support--community)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+> 💡 **Market Size & Structure**: The global **Mobile Measurement Partner (MMP) & Mobile Attribution Market** is estimated at **$3.8 Billion – $5.2 Billion USD** (growing at a ~13.5% CAGR). The market structure is **highly concentrated** (a winner-take-most environment), heavily dominated by established commercial MMPs (Adobe, Branch, AppsFlyer, Adjust, Singular) due to extensive SDK partner networks (Meta, Google, TikTok, Apple Search Ads), specialized ad fraud prevention suites, and complex privacy compliance frameworks (Apple SKAdNetwork/ATT & Google Privacy Sandbox).
+
+---
+
+## 🏢 SaaS & Commercial MMP Platforms
+
+Commercial MMPs aggregate ad spend, attribute app installs, provide deferred deep linking, and manage privacy-compliant SKAN reporting across ad networks.
+
+*Sorted by **Company Size (Revenue / Valuation)** in descending order:*
+
+| Product / SaaS | Company Size (Valuation / Revenue) | Starting Pricing Tier | Free Tier / Free Trial Limits | Key Features & Focus |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Adobe Analytics / Attribution](https://business.adobe.com/)** | **~$240.0B Valuation** ($19.4B+ Revenue) | **$2,000 / month** (Select enterprise plan) | **30-day sandbox trial** with enterprise demo | Enterprise cross-channel multi-touch attribution, customer journey analytics & web-to-app tracking. |
+| **[Branch](https://www.branch.io/)** | **~$4.0B Valuation** ($100M+ ARR) | **$59 / month** (Growth plan starting >10k MAU) | **Free Forever Tier** up to 10,000 MAU | Industry standard for deferred deep linking, web-to-app user routing & cross-platform install attribution. |
+| **[AppsFlyer](https://www.appsflyer.com/)** | **~$2.0B Valuation** ($300M+ ARR) | **$0.06 per attribution** (Growth Plan) | **12,000 free attributions** total upon signup | Market leader in mobile attribution, Protect360 ad fraud defense, Data Clean Rooms & SKAN dashboards. |
+| **[Adjust](https://www.adjust.com/)** | **~$1.0B Valuation** (Acquired by AppLovin) | **$120 / month** (Starter Plan) | **30-day free trial** up to 10,000 attributions | Privacy-focused mobile measurement, automated campaign automation, fraud prevention & mobile gaming SDKs. |
+| **[Singular](https://www.singular.net/)** | **~$150M Valuation** ($35M+ ARR) | **$499 / month** (Growth Plan) | **30-day free trial** up to 100,000 conversions | Unified marketing analytics, automated cost aggregation (ROAS), SKAN analytics & attribution ETL. |
+| **[Kochava](https://www.kochava.com/)** | **~$100M Valuation** ($25M+ ARR) | **$100 / month** (Standard Plan) | **Free Forever Tier** up to 10,000 conversions/mo | Real-time analytics, configurable attribution waterfall, subscription tracking & fraud blocklists. |
+| **[Airbridge](https://www.airbridge.io/)** | **~$50M Valuation** ($12M+ ARR) | **$199 / month** (Starter Plan) | **14-day free trial** up to 50,000 attributions | Web-to-app attribution, incremental marketing lift modeling, SKAN dashboards & custom event routing. |
+| **[Northbeam](https://www.northbeam.io/)** | **~$50M Valuation** ($12M+ ARR) | **$300 / month** (Starter Plan) | **14-day free trial** with spend sync | First-party data attribution, machine learning Media Mix Modeling (MMM) & e-commerce app analytics. |
+| **[Rockerbox](https://www.rockerbox.com/)** | **~$40M Valuation** ($10M+ ARR) | **$500 / month** (Base Tier) | **14-day free trial** with ad platform connectors | Multi-touch attribution, offline-to-online app tracking & automated marketing spend data unification. |
+| **[Tenjin](https://www.tenjin.com/)** | **~$30M Valuation** ($10M+ ARR) | **$300 / month** (Developer Plan) | **Free Forever Tier** up to 10,000 installs/mo | Free tier MMP popular among indie mobile game studios, ad revenue attribution & cost aggregation. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Open-source mobile attribution frameworks, customer data platforms (CDPs), event collection pipelines, and deep-linking SDKs give app developers complete ownership of their data.
+
+*Sorted by **GitHub Stars** in descending order:*
+
+1. 🌟 **[PostHog](https://github.com/PostHog/posthog)** [![GitHub stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers)  
+   *Self-hosted product analytics, event tracking, session recording, and feature flags. Provides event collection SDKs for iOS/Android to build custom attribution models.*
+
+2. 🌟 **[Matomo](https://github.com/matomo-org/matomo)** [![GitHub stars](https://img.shields.io/github/stars/matomo-org/matomo?style=social&color=white)](https://github.com/matomo-org/matomo/stargazers)  
+   *Privacy-focused web & mobile analytics platform with open-source mobile SDKs for tracking app installs, marketing campaigns, and user events.*
+
+3. 🌟 **[Snowplow Engine](https://github.com/snowplow/snowplow)** [![GitHub stars](https://img.shields.io/github/stars/snowplow/snowplow?style=social&color=white)](https://github.com/snowplow/snowplow/stargazers)  
+   *Enterprise-grade open-source event data pipeline for capturing granular mobile app events into Snowflake, BigQuery, or Redshift for SQL-based attribution modeling.*
+
+4. 🌟 **[Countly Server](https://github.com/Countly/countly-server)** [![GitHub stars](https://img.shields.io/github/stars/Countly/countly-server?style=social&color=white)](https://github.com/Countly/countly-server/stargazers)  
+   *Open-source product analytics and real-time mobile app tracking platform for managing user profiles, custom events, and attribution campaigns.*
+
+5. 🌟 **[RudderStack Server](https://github.com/rudderlabs/rudder-server)** [![GitHub stars](https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white)](https://github.com/rudderlabs/rudder-server/stargazers)  
+   *Open-source Customer Data Platform (CDP) for collecting app signals, routing mobile events, and feeding attribution pipelines.*
+
+6. 🌟 **[OpenAttribution](https://github.com/OpenAttribution/open-attribution)** [![GitHub stars](https://img.shields.io/github/stars/OpenAttribution/open-attribution?style=social&color=white)](https://github.com/OpenAttribution/open-attribution/stargazers)  
+   *Dedicated open-source Mobile Measurement Partner (MMP) architecture aimed at giving developers data ownership over mobile install attribution, SQL modeling, and companion iOS/Android SDKs.*
+
+7. 🌟 **[DeepOne Android SDK](https://github.com/deeponelabs/deepone-android-sdk)** [![GitHub stars](https://img.shields.io/github/stars/deeponelabs/deepone-android-sdk?style=social&color=white)](https://github.com/deeponelabs/deepone-android-sdk/stargazers)  
+   *Open-source Android library for deferred deep linking and install tracking as a self-hosted alternative to Branch.*
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Help us keep this curated mobile attribution directory accurate and up to date:
+
+1. 🍴 **Fork** this repository.
+2. 📝 **Add/edit** entries in `README.md` following the existing tabular or open-source list format.
+3. ℹ️ Include relevant details: **Name, Link, Pricing, Free Tier / Trial limits, and GitHub Star Badges**.
+4. 🚀 **Submit a Pull Request** with a concise title and description.
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated** repository provided for educational and research purposes.
+- Mobile attribution operates under evolving platform privacy rules (Apple App Tracking Transparency / SKAdNetwork and Google Privacy Sandbox).
+- Open-source self-hosted solutions offer maximum data ownership but require custom engineering maintenance, data pipelines, and ad network API integrations.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Mobile-Attribution-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Mobile-Attribution-Platform&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Community
+
+Thank you for exploring the **Awesome Mobile Attribution Platform** ecosystem! 🚀
+
+If you find this repository helpful for your mobile growth, ad-tech stack, or engineering research, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it on GitHub.
+- 🔀 **Fork & Contribute** by submitting a Pull Request with new MMPs or open-source tools.
+- 📢 **Share** with fellow mobile growth engineers, marketers, and app developers.
+- ☕ **Sponsor / Buy me a coffee**: If you'd like to support ongoing maintenance and updates, visit the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+*Maintained with ❤️ by [ishandutta2007](https://github.com/ishandutta2007). Discover more curated awesome lists at [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome).*
