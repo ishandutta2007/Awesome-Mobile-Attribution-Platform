@@ -56,6 +56,7 @@ Commercial MMPs aggregate ad spend, attribute app installs, provide deferred dee
 | **[Northbeam](https://www.northbeam.io/)** | **~$50M Valuation** ($12M+ ARR) | **$300 / month** (Starter Plan) | **14-day free trial** with spend sync | First-party data attribution, machine learning Media Mix Modeling (MMM) & e-commerce app analytics. |
 | **[Rockerbox](https://www.rockerbox.com/)** | **~$40M Valuation** ($10M+ ARR) | **$500 / month** (Base Tier) | **14-day free trial** with ad platform connectors | Multi-touch attribution, offline-to-online app tracking & automated marketing spend data unification. |
 | **[Tenjin](https://www.tenjin.com/)** | **~$30M Valuation** ($10M+ ARR) | **$300 / month** (Developer Plan) | **Free Forever Tier** up to 10,000 installs/mo | Free tier MMP popular among indie mobile game studios, ad revenue attribution & cost aggregation. |
+| **[LinkTrail](https://linktrail.io/)** | **Early-stage startup** (undisclosed) | **$19 / month** (Starter plan, 25,000 MAU) | **Free Forever Tier** up to 5,000 MAU (25K clicks/mo) | Deferred deep linking, Universal Links / App Links, install & in-app event attribution, SKAdNetwork & ATT support, with open-source iOS / Android / React Native / Flutter SDKs. |
 
 ---
 
